@@ -1,9 +1,11 @@
 <script setup>
-import HomeHeroSection from '@/components/HomeHeroSection.vue';
+import HomeHeroSection from '@/components/HomeHeroSection.vue'
+import HomeProjectSection from '@/components/HomeProjectSection.vue'
 </script>
 
 <template>
-    <main>
-        <HomeHeroSection />
-    </main>
+  <HomeHeroSection />
+  <HomeProjectSection />
 </template>
+
+<style scoped></style>
